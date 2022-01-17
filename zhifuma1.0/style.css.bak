@@ -148,12 +148,12 @@ a{
 	left: -2px;
 	top: -8px;
 }
-#xiaoren {
+#github {
 	width: 24px;
 	height: 24px;
 	left: calc(50% + 140px);
 	top: calc(50% - 29px);
-	background: no-repeat center center url(images/xiaoren.svg);
+	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
 	opacity: 1;
 	transform: rotatez(25deg );

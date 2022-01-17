@@ -2,28 +2,25 @@
 <html lang="zh">
 <head>
 	<meta charset="UTF-8">
-	<title>Sponsor-Page</title>
+	<title>阿宅-支付码</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" /><!--禁止缩放-->
 	<link rel="stylesheet" href="style.css">
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 	<!-- clipboard.js 是 JS 复制文本的库 -->
 	<script src="script.js"></script>
 </head>
 <body>
-	<a id="github" href="http://zws.fun/" target="_blank" class="pos-f tr3" title="Github"></a>
+	<a id="xiaoren" href="http://zws.fun/" target="_blank" class="pos-f tr3" title="xiaoren"></a>
 	<div id="DonateText" class="tr3"> 赞助 </div>
 	<ul id="donateBox" class="list pos-f tr3">
-		<li id="PayPal"><a href="http://wpa.qq.com/msgrd?v=3&uin=240233869&site=qq&menu=yes" target="_blank">PayPal</a></li>
-		<li id="BTC" data-footnote="我的小钱包"><button id="BTCBn"  data-clipboard-target="#btc-key" alt="Copy to clipboard">Bitcoin</button></li>
+		<li id="azhai"><a href="http://wpa.qq.com/msgrd?v=3&uin=240233869&site=qq&menu=yes" target="_blank">阿宅</a></li>
+		<li id="BTC" data-footnote="天冷了好好挣钱，因为冬天衣服比较贵"><button id="BTCBn"  data-clipboard-target="#btc-key" alt="Copy to clipboard">丰收e支付</button></li>
 		<li id="AliPay">AliPay</li>
 		<li id="WeChat">WeChat</li>
 	</ul>
 	<div id="QRBox" class="pos-f left-100">
 		<div id="MainBox"></div>
 	</div>
-<!-- Bitcoin 账号
-	<input id="btc-key" type="text" value="14JkMR68n4PBASB3TgvpjtaPTbfffSwFbW" readonly="readonly">
--->
 </body>
 </html>
